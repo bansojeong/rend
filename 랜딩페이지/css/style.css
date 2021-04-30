@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.section01 {
+    width: 100%;
+    background: url(../images/images_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 3081px;
+}
+
+.section02 {
+    width: 100%;
+    background: url(../images/images_02.jpg)no-repeat center 0;
+    height: 860px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section03 {
+    width: 100%;
+    background: url(../images/images_03.jpg)no-repeat center 0;
+    height: 3415px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section04 {
+    width: 100%;
+    background: url(../images/images_04.jpg)no-repeat center 0;
+    height: 2612px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section05 {
+    width: 100%;
+    background: url(../images/images_05.jpg)no-repeat center 0;
+    height: 1446px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section06 {
+    width: 100%;
+    background: url(../images/images_06.jpg)no-repeat center 0;
+    height: 828px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.video {
+	display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 144%;
+}
+
+@media(max-width:1024px) {
+	.section01{
+		width: 100%;
+	}	
+}
+
+
+
+
